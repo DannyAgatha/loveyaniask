@@ -1,0 +1,28 @@
+body
+{ 
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #120c1c;
+}
+.love-text {
+  position: fixed;
+  top: 7vh;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Marck Script', 'Comic Sans MS', cursive, sans-serif;
+  font-size: 2.2rem;
+  color: #90153a;  /* Kalbin rengiyle aynı */
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 1;
+  user-select: none;
+}
+
+@media (max-width: 600px) {
+  .love-text {
+    font-size: 1.2rem;
+    top: 3vh;
+  }
+}
