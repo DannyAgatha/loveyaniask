@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>WingsAPI.Communication</RootNamespace>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.DAL.Abstractions\PhoenixLib.DAL.Abstractions.csproj" />
+        <ProjectReference Include="..\PhoenixLib.Messaging\PhoenixLib.Messaging.csproj" />
+        <ProjectReference Include="..\WingsAPI.Data\WingsAPI.Data.csproj" />
+        <ProjectReference Include="..\WingsAPI.Packets\WingsAPI.Packets.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.ServiceModel.Primitives" Version="10.0.652802" />
+    </ItemGroup>
+
+
+</Project>
+
+

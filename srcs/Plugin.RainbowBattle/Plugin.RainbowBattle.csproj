@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.DAL.Redis\PhoenixLib.DAL.Redis.csproj" />
+        <ProjectReference Include="..\WingsAPI.Commands\WingsAPI.Commands.csproj" />
+        <ProjectReference Include="..\WingsAPI.Game.Extensions\WingsAPI.Game.Extensions.csproj" />
+        <ProjectReference Include="..\WingsAPI.Game\WingsAPI.Game.csproj" />
+        <ProjectReference Include="..\WingsAPI.Packets\WingsAPI.Packets.csproj" />
+        <ProjectReference Include="..\WingsAPI.Plugins\WingsAPI.Plugins.csproj" />
+    </ItemGroup>
+
+</Project>
+
+

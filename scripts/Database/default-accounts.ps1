@@ -1,0 +1,1 @@
+﻿﻿..\..\dist\toolkit\Toolkit.exe create-accounts

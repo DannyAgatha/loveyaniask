@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\PhoenixLib.Caching\PhoenixLib.Caching.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Configuration\PhoenixLib.Configuration.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.DAL.Redis\PhoenixLib.DAL.Redis.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Extensions\PhoenixLib.Extensions.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Scheduler\PhoenixLib.Scheduler.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Commands\WingsAPI.Commands.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game.Extensions\WingsAPI.Game.Extensions.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game\WingsAPI.Game.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Plugins\WingsAPI.Plugins.csproj" />
+    </ItemGroup>
+
+</Project>
+
+

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <LangVersion>12</LangVersion>
+        <OutputPath>..\..\dist\toolkit</OutputPath>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CommandLineParser" Version="2.9.1" />
+        <PackageReference Include="dotenv.net" Version="4.0.0" />
+        <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.1" />
+        <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.Extensions\PhoenixLib.Extensions.csproj" />
+        <ProjectReference Include="..\PhoenixLib.Logging\PhoenixLib.Logging.csproj" />
+        <ProjectReference Include="..\PhoenixLib.Multilanguage\PhoenixLib.Multilanguage.csproj" />
+        <ProjectReference Include="..\WingsAPI.Data\WingsAPI.Data.csproj" />
+        <ProjectReference Include="..\_plugins\Plugin.DB.EF\Plugin.DB.EF.csproj" />
+    </ItemGroup>
+
+</Project>
+
+

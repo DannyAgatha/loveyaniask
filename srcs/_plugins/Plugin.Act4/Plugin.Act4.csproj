@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\DiscordNotifier\DiscordNotifier.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Configuration\PhoenixLib.Configuration.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.DAL.Redis\PhoenixLib.DAL.Redis.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Events\PhoenixLib.Events.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Logging\PhoenixLib.Logging.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Commands\WingsAPI.Commands.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game.Extensions\WingsAPI.Game.Extensions.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game\WingsAPI.Game.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Plugins\WingsAPI.Plugins.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Scripting.LUA\WingsAPI.Scripting.LUA.csproj" />
+        <ProjectReference Include="..\WingsEmu.Plugins.DistributedGameEvents\WingsEmu.Plugins.DistributedGameEvents.csproj" />
+    </ItemGroup>
+
+</Project>
+
+

@@ -1,0 +1,1 @@
+docker run --name mongodb-Latest -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=x6O20B7oADJH4lcJVvV9bE9frAyBZtsiY0TD8I8xdTw4vsjim5 --restart always -d mongo:latest

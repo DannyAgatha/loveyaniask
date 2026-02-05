@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <LangVersion>12</LangVersion>
+        <AssemblyVersion>2.0.0</AssemblyVersion>
+        <FileVersion>2.0.0</FileVersion>
+        <RootNamespace>WingsAPI.Data</RootNamespace>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.DAL.Abstractions\PhoenixLib.DAL.Abstractions.csproj" />
+        <ProjectReference Include="..\PhoenixLib.Multilanguage\PhoenixLib.Multilanguage.csproj" />
+        <ProjectReference Include="..\WingsAPI.Packets\WingsAPI.Packets.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="protobuf-net" Version="3.2.56" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="BattlePass\" />
+    </ItemGroup>
+
+</Project>
+
+

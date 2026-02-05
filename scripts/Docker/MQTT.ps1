@@ -1,0 +1,1 @@
+docker run --name MQTT-Latest --restart always -it -p 18083:18083 -p 1883:1883 eclipse-mosquitto:latest mosquitto -c /mosquitto-no-auth.conf

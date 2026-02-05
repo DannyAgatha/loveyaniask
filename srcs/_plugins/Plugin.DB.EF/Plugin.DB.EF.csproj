@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>Plugin.Database</RootNamespace>
+        <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\PhoenixLib.DAL.Abstractions\PhoenixLib.DAL.Abstractions.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.DAL.EFCore.PGSQL\PhoenixLib.DAL.EFCore.PGSQL.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Logging\PhoenixLib.Logging.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game\WingsAPI.Game.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Plugins\WingsAPI.Plugins.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+
+        <PackageReference Include="Mapster" Version="7.4.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.1">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+        <PackageReference Include="Npgsql.Json.NET" Version="10.0.1" />
+        <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="10.105.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Migrations" />
+    </ItemGroup>
+
+</Project>
+

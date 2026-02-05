@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\PhoenixLib.Caching\PhoenixLib.Caching.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Multilanguage\PhoenixLib.Multilanguage.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Data\WingsAPI.Data.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Plugins\WingsAPI.Plugins.csproj" />
+    </ItemGroup>
+
+</Project>
+
+

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>14</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\WingsAPI.Commands\WingsAPI.Commands.csproj" />
+      <ProjectReference Include="..\..\WingsAPI.Plugins\WingsAPI.Plugins.csproj" />
+      <ProjectReference Include="..\WingsEmu.Plugins.GameEvents\WingsEmu.Plugins.GameEvents.csproj" />
+    </ItemGroup>
+
+</Project>

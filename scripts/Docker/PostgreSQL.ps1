@@ -1,0 +1,1 @@
+docker run -p 5432:5432 --name postgres-SQL-Latest -e POSTGRES_PASSWORD=VT0gh2436FluiIB18p61QGeHnbWCuFLj6hs8auo9E0daGX7mpg --restart always -d postgres:latest

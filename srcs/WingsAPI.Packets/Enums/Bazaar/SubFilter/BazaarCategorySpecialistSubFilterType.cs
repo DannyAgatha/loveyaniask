@@ -1,0 +1,41 @@
+﻿namespace WingsAPI.Packets.Enums.Bazaar.SubFilter
+{
+    public enum BazaarCategorySpecialistSubFilterType : byte
+    {
+        All = 0,
+        EmptyCardHolder = 1,
+        Crusader = 2,
+        Berserker = 3,
+        Warrior = 4,
+        Ninja = 5,
+        WildKeeper = 6,
+        Assassin = 7,
+        Destroyer = 8,
+        Ranger = 9,
+        HolyMage = 10,
+        DarkGunner = 11,
+        RedMagician = 12,
+        BlueMagician = 13,
+        Jajamaru = 14,
+        ChickenCostume = 15,
+        Pyjama = 16,
+        Pirate = 17,
+        Gladiator = 18,
+        FireCannoneer = 19,
+        Volcano = 20,
+        BattleMonk = 21,
+        Scout = 22,
+        TideLord = 23,
+        DeathReaper = 24,
+        DemonHunter = 25,
+        Seer = 26,
+        Renegade = 27,
+        AvengingAngel = 28,
+        Archmage = 29,
+        DraconicFist = 30,
+        MysticArts = 32,
+        WeddingCostume = 33,
+        MasterWolf = 34,
+        DemonWarrior = 35
+    }
+}

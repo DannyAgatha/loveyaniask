@@ -1,0 +1,1 @@
+namespace WingsEmu.Game.Managers;
